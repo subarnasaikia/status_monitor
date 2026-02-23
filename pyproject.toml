@@ -1,0 +1,9 @@
+[project]
+name = "status-monitor"
+version = "0.1.0"
+description = "Scalable provider-based service status monitoring platform"
+requires-python = ">=3.11"
+dependencies = [
+    "feedparser>=6.0.12",
+    "httpx>=0.28.1",
+]
